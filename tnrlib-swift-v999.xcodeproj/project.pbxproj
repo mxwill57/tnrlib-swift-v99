@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		742DDADE1DABF44B0049A131 /* tnrlib_swift_v999.h in Headers */ = {isa = PBXBuildFile; fileRef = 742DDADD1DABF44B0049A131 /* tnrlib_swift_v999.h */; };
-		742DDAE01DABF44B0049A131 /* tnrlib_swift_v999.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDADF1DABF44B0049A131 /* tnrlib_swift_v999.m */; };
+		742DDAED1DABF5000049A131 /* TnHttpWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE71DABF5000049A131 /* TnHttpWorking.swift */; };
+		742DDAEE1DABF5000049A131 /* TnHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE81DABF5000049A131 /* TnHttp.swift */; };
+		742DDAEF1DABF5000049A131 /* qaHttpQa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE91DABF5000049A131 /* qaHttpQa.swift */; };
+		742DDAF01DABF5000049A131 /* qaXmlVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */; };
+		742DDAF11DABF5000049A131 /* TnXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEB1DABF5000049A131 /* TnXml.swift */; };
+		742DDAF21DABF5000049A131 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEC1DABF5000049A131 /* AEXML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		742DDADA1DABF44B0049A131 /* libtnrlib-swift-v999.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libtnrlib-swift-v999.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		742DDADD1DABF44B0049A131 /* tnrlib_swift_v999.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tnrlib_swift_v999.h; sourceTree = "<group>"; };
-		742DDADF1DABF44B0049A131 /* tnrlib_swift_v999.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tnrlib_swift_v999.m; sourceTree = "<group>"; };
+		742DDAE61DABF5000049A131 /* tnrlib-swift-v999-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tnrlib-swift-v999-Bridging-Header.h"; sourceTree = "<group>"; };
+		742DDAE71DABF5000049A131 /* TnHttpWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttpWorking.swift; sourceTree = "<group>"; };
+		742DDAE81DABF5000049A131 /* TnHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttp.swift; sourceTree = "<group>"; };
+		742DDAE91DABF5000049A131 /* qaHttpQa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaHttpQa.swift; sourceTree = "<group>"; };
+		742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaXmlVerify.swift; sourceTree = "<group>"; };
+		742DDAEB1DABF5000049A131 /* TnXml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnXml.swift; sourceTree = "<group>"; };
+		742DDAEC1DABF5000049A131 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +56,13 @@
 		742DDADC1DABF44B0049A131 /* tnrlib-swift-v999 */ = {
 			isa = PBXGroup;
 			children = (
-				742DDADD1DABF44B0049A131 /* tnrlib_swift_v999.h */,
-				742DDADF1DABF44B0049A131 /* tnrlib_swift_v999.m */,
+				742DDAE71DABF5000049A131 /* TnHttpWorking.swift */,
+				742DDAE81DABF5000049A131 /* TnHttp.swift */,
+				742DDAE91DABF5000049A131 /* qaHttpQa.swift */,
+				742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */,
+				742DDAEB1DABF5000049A131 /* TnXml.swift */,
+				742DDAEC1DABF5000049A131 /* AEXML.swift */,
+				742DDAE61DABF5000049A131 /* tnrlib-swift-v999-Bridging-Header.h */,
 			);
 			path = "tnrlib-swift-v999";
 			sourceTree = "<group>";
@@ -60,7 +74,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742DDADE1DABF44B0049A131 /* tnrlib_swift_v999.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +133,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742DDAE01DABF44B0049A131 /* tnrlib_swift_v999.m in Sources */,
+				742DDAF01DABF5000049A131 /* qaXmlVerify.swift in Sources */,
+				742DDAF21DABF5000049A131 /* AEXML.swift in Sources */,
+				742DDAF11DABF5000049A131 /* TnXml.swift in Sources */,
+				742DDAEF1DABF5000049A131 /* qaHttpQa.swift in Sources */,
+				742DDAED1DABF5000049A131 /* TnHttpWorking.swift in Sources */,
+				742DDAEE1DABF5000049A131 /* TnHttp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,20 +229,27 @@
 		742DDAE41DABF44B0049A131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tnrlib-swift-v999/tnrlib-swift-v999-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		742DDAE51DABF44B0049A131 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tnrlib-swift-v999/tnrlib-swift-v999-Bridging-Header.h";
 			};
 			name = Release;
 		};
