@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		742DDAED1DABF5000049A131 /* TnHttpWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE71DABF5000049A131 /* TnHttpWorking.swift */; };
+		742DDAEE1DABF5000049A131 /* TnHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE81DABF5000049A131 /* TnHttp.swift */; };
+		742DDAEF1DABF5000049A131 /* qaHttpQa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAE91DABF5000049A131 /* qaHttpQa.swift */; };
+		742DDAF01DABF5000049A131 /* qaXmlVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */; };
+		742DDAF11DABF5000049A131 /* TnXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEB1DABF5000049A131 /* TnXml.swift */; };
+		742DDAF21DABF5000049A131 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDAEC1DABF5000049A131 /* AEXML.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		742DDADA1DABF44B0049A131 /* libtnrlib-swift-v999.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libtnrlib-swift-v999.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742DDAE61DABF5000049A131 /* tnrlib-swift-v999-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tnrlib-swift-v999-Bridging-Header.h"; sourceTree = "<group>"; };
+		742DDAE71DABF5000049A131 /* TnHttpWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttpWorking.swift; sourceTree = "<group>"; };
+		742DDAE81DABF5000049A131 /* TnHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttp.swift; sourceTree = "<group>"; };
+		742DDAE91DABF5000049A131 /* qaHttpQa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaHttpQa.swift; sourceTree = "<group>"; };
+		742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaXmlVerify.swift; sourceTree = "<group>"; };
+		742DDAEB1DABF5000049A131 /* TnXml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnXml.swift; sourceTree = "<group>"; };
+		742DDAEC1DABF5000049A131 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742DDAD71DABF44B0049A131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742DDAD11DABF44B0049A131 = {
+			isa = PBXGroup;
+			children = (
+				742DDADC1DABF44B0049A131 /* tnrlib-swift-v999 */,
+				742DDADB1DABF44B0049A131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		742DDADB1DABF44B0049A131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742DDADA1DABF44B0049A131 /* libtnrlib-swift-v999.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		742DDADC1DABF44B0049A131 /* tnrlib-swift-v999 */ = {
+			isa = PBXGroup;
+			children = (
+				742DDAE71DABF5000049A131 /* TnHttpWorking.swift */,
+				742DDAE81DABF5000049A131 /* TnHttp.swift */,
+				742DDAE91DABF5000049A131 /* qaHttpQa.swift */,
+				742DDAEA1DABF5000049A131 /* qaXmlVerify.swift */,
+				742DDAEB1DABF5000049A131 /* TnXml.swift */,
+				742DDAEC1DABF5000049A131 /* AEXML.swift */,
+				742DDAE61DABF5000049A131 /* tnrlib-swift-v999-Bridging-Header.h */,
+			);
+			path = "tnrlib-swift-v999";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		742DDAD81DABF44B0049A131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		742DDAD91DABF44B0049A131 /* tnrlib-swift-v999 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742DDAE31DABF44B0049A131 /* Build configuration list for PBXNativeTarget "tnrlib-swift-v999" */;
+			buildPhases = (
+				742DDAD61DABF44B0049A131 /* Sources */,
+				742DDAD71DABF44B0049A131 /* Frameworks */,
+				742DDAD81DABF44B0049A131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tnrlib-swift-v999";
+			productName = "tnrlib-swift-v999";
+			productReference = 742DDADA1DABF44B0049A131 /* libtnrlib-swift-v999.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742DDAD21DABF44B0049A131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = di07zd4;
+				TargetAttributes = {
+					742DDAD91DABF44B0049A131 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 742DDAD51DABF44B0049A131 /* Build configuration list for PBXProject "tnrlib-swift-v999" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 742DDAD11DABF44B0049A131;
+			productRefGroup = 742DDADB1DABF44B0049A131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742DDAD91DABF44B0049A131 /* tnrlib-swift-v999 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742DDAD61DABF44B0049A131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742DDAF01DABF5000049A131 /* qaXmlVerify.swift in Sources */,
+				742DDAF21DABF5000049A131 /* AEXML.swift in Sources */,
+				742DDAF11DABF5000049A131 /* TnXml.swift in Sources */,
+				742DDAEF1DABF5000049A131 /* qaHttpQa.swift in Sources */,
+				742DDAED1DABF5000049A131 /* TnHttpWorking.swift in Sources */,
+				742DDAEE1DABF5000049A131 /* TnHttp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		742DDAE11DABF44B0049A131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		742DDAE21DABF44B0049A131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		742DDAE41DABF44B0049A131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tnrlib-swift-v999/tnrlib-swift-v999-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		742DDAE51DABF44B0049A131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tnrlib-swift-v999/tnrlib-swift-v999-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742DDAD51DABF44B0049A131 /* Build configuration list for PBXProject "tnrlib-swift-v999" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742DDAE11DABF44B0049A131 /* Debug */,
+				742DDAE21DABF44B0049A131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742DDAE31DABF44B0049A131 /* Build configuration list for PBXNativeTarget "tnrlib-swift-v999" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742DDAE41DABF44B0049A131 /* Debug */,
+				742DDAE51DABF44B0049A131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742DDAD21DABF44B0049A131 /* Project object */;
+}
