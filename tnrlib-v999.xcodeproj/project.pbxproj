@@ -12,6 +12,12 @@
 		748516DA1DAC1511001A1780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748516D81DAC1511001A1780 /* Main.storyboard */; };
 		748516DC1DAC1511001A1780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748516DB1DAC1511001A1780 /* Assets.xcassets */; };
 		748516DF1DAC1511001A1780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748516DD1DAC1511001A1780 /* LaunchScreen.storyboard */; };
+		748516EC1DAC1556001A1780 /* TnHttpWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516E61DAC1556001A1780 /* TnHttpWorking.swift */; };
+		748516ED1DAC1556001A1780 /* TnHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516E71DAC1556001A1780 /* TnHttp.swift */; };
+		748516EE1DAC1556001A1780 /* qaHttpQa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516E81DAC1556001A1780 /* qaHttpQa.swift */; };
+		748516EF1DAC1556001A1780 /* qaXmlVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516E91DAC1556001A1780 /* qaXmlVerify.swift */; };
+		748516F01DAC1556001A1780 /* TnXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516EA1DAC1556001A1780 /* TnXml.swift */; };
+		748516F11DAC1556001A1780 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748516EB1DAC1556001A1780 /* AEXML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,16 @@
 		748516DB1DAC1511001A1780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748516DE1DAC1511001A1780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748516E01DAC1511001A1780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748516E61DAC1556001A1780 /* TnHttpWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttpWorking.swift; sourceTree = "<group>"; };
+		748516E71DAC1556001A1780 /* TnHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnHttp.swift; sourceTree = "<group>"; };
+		748516E81DAC1556001A1780 /* qaHttpQa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaHttpQa.swift; sourceTree = "<group>"; };
+		748516E91DAC1556001A1780 /* qaXmlVerify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qaXmlVerify.swift; sourceTree = "<group>"; };
+		748516EA1DAC1556001A1780 /* TnXml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnXml.swift; sourceTree = "<group>"; };
+		748516EB1DAC1556001A1780 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		748516F41DAD3ADA001A1780 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Main.strings"; sourceTree = "<group>"; };
+		748516F51DAD3ADA001A1780 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		748516F61DAD3AE5001A1780 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		748516F71DAD3AE5001A1780 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,12 @@
 		748516D31DAC1511001A1780 /* tnrlib-v999 */ = {
 			isa = PBXGroup;
 			children = (
+				748516E61DAC1556001A1780 /* TnHttpWorking.swift */,
+				748516E71DAC1556001A1780 /* TnHttp.swift */,
+				748516E81DAC1556001A1780 /* qaHttpQa.swift */,
+				748516E91DAC1556001A1780 /* qaXmlVerify.swift */,
+				748516EA1DAC1556001A1780 /* TnXml.swift */,
+				748516EB1DAC1556001A1780 /* AEXML.swift */,
 				748516D41DAC1511001A1780 /* AppDelegate.swift */,
 				748516D61DAC1511001A1780 /* ViewController.swift */,
 				748516D81DAC1511001A1780 /* Main.storyboard */,
@@ -135,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748516EF1DAC1556001A1780 /* qaXmlVerify.swift in Sources */,
+				748516EE1DAC1556001A1780 /* qaHttpQa.swift in Sources */,
 				748516D71DAC1511001A1780 /* ViewController.swift in Sources */,
+				748516ED1DAC1556001A1780 /* TnHttp.swift in Sources */,
+				748516EC1DAC1556001A1780 /* TnHttpWorking.swift in Sources */,
+				748516F11DAC1556001A1780 /* AEXML.swift in Sources */,
 				748516D51DAC1511001A1780 /* AppDelegate.swift in Sources */,
+				748516F01DAC1556001A1780 /* TnXml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +175,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				748516D91DAC1511001A1780 /* Base */,
+				748516F41DAD3ADA001A1780 /* en-US */,
+				748516F61DAD3AE5001A1780 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +185,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				748516DE1DAC1511001A1780 /* Base */,
+				748516F51DAD3ADA001A1780 /* en-US */,
+				748516F71DAD3AE5001A1780 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -255,6 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.tn.doshs.tnrlib-v999";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -266,6 +299,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.tn.doshs.tnrlib-v999";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -288,6 +322,7 @@
 				748516E51DAC1511001A1780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
